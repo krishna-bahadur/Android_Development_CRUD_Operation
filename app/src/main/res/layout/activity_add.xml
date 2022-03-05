@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Record"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Student_Id:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="70dp"
+        android:ems="15"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/faculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Faculty:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/sem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Semester:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:backgroundTint="@color/teal_700"/>
+</LinearLayout>
